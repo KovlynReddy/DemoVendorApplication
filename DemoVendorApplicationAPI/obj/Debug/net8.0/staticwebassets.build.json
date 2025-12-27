@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hFr2SxGxayUMX8gsNzPEakcY0Jy9spQA18Ulf9KhjA8=",
+  "Source": "DemoVendorApplicationAPI",
+  "BasePath": "_content/DemoVendorApplicationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

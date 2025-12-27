@@ -1,0 +1,11 @@
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\bin\Debug\net8.0\DemoVendorApplicationDLL.deps.json
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\bin\Debug\net8.0\DemoVendorApplicationDLL.dll
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\bin\Debug\net8.0\DemoVendorApplicationDLL.pdb
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\DemoVendorApplicationDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\DemoVendorApplicationDLL.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\DemoVendorApplicationDLL.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\DemoVendorApplicationDLL.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\DemoVendorApplicationDLL.dll
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\refint\DemoVendorApplicationDLL.dll
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\DemoVendorApplicationDLL.pdb
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\ref\DemoVendorApplicationDLL.dll
