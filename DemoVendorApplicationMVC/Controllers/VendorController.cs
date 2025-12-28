@@ -13,8 +13,20 @@ public class VendorController : Controller
     }
 
     [HttpGet]
-    public async Task<List<Vendor>> Index()
+    public async Task<IActionResult> Index()
     {
-        return await _vendorService.GetAllVendors();
+        return View(await _vendorService.GetAllVendors());
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> Create()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Create(Vendor entity)
+    {
+        return View(await _vendorService.PostVendor(entity));
     }
 }

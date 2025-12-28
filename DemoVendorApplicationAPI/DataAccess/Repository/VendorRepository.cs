@@ -14,6 +14,11 @@ namespace DemoVendorApplicationAPI.DataAccess.Repository
         }
         public async Task<Vendor> Create(Vendor entity)
         {
+            // make sure vendor does not exist
+
+            // initialize data
+            entity = InitializeData(entity);
+
             await _db.Vendors.AddAsync(entity);
 
             await _db.SaveChangesAsync();
@@ -45,6 +50,13 @@ namespace DemoVendorApplicationAPI.DataAccess.Repository
         public Task<Vendor> Update(Vendor entity)
         {
             throw new NotImplementedException();
+        }
+
+        private Vendor InitializeData(Vendor entity) 
+        {
+            entity.Initialize();
+
+            return entity;
         }
     }
 }

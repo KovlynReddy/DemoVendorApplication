@@ -16,4 +16,12 @@ public class BaseModel
     public DateTime DateDeleted { get; set; }
     public bool IsDeleted { get; set; }
     public Guid UpdatedBy { get; set; }
+
+    public void Initialize()
+    { 
+        this.DateCreated = DateTime.Now;
+        this.DateUpdated = DateTime.Now;
+        this.IsDeleted = false;
+        this.Id = Guid.NewGuid();
+    }
 }

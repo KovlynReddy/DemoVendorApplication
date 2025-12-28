@@ -17,4 +17,9 @@ public class VendorService : IVendorService
     {
         return await _client.GetList();
     }
+
+    public async Task<Vendor> PostVendor(Vendor entity)
+    {
+        return await _client.PostJsonAsync(entity);
+    }
 }
