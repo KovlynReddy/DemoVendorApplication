@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wrx+nsOsC9iXV7MzSVVZh+9dyPIrURJYvoYqg6CZdl0=",
+  "Hash": "8zyQslgYSc2Y6iI7ZpvKEfBh5FOUePt5CQxCqKuChYk=",
   "Source": "DemoVendorApplicationMVC",
   "BasePath": "_content/DemoVendorApplicationMVC",
   "Mode": "Default",
@@ -2371,6 +2371,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Documents\\Richfield\\S12025\\ProgrammingS1\\DemoVendorApplication\\DemoVendorApplicationMVC\\wwwroot\\uploads\\7364808d-b15b-45ad-8a80-526d06fdff34.png",
+      "SourceId": "DemoVendorApplicationMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Documents\\Richfield\\S12025\\ProgrammingS1\\DemoVendorApplication\\DemoVendorApplicationMVC\\wwwroot\\",
+      "BasePath": "_content/DemoVendorApplicationMVC",
+      "RelativePath": "uploads/7364808d-b15b-45ad-8a80-526d06fdff34.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\7364808d-b15b-45ad-8a80-526d06fdff34.png"
     }
   ]
 }

@@ -265,3 +265,6 @@ C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplic
 C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationMVC\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationMVC\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationMVC\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationMVC\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationMVC\bin\Debug\net8.0\MediatR.dll
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationMVC\bin\Debug\net8.0\MediatR.Contracts.dll

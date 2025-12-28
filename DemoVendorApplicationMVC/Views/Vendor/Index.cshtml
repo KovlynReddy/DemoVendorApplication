@@ -39,7 +39,7 @@
                 @Html.DisplayFor(modelItem => item.DisplayName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Image)
+                    @Html.DisplayFor(modelItem => item.Image) <img src="~/uploads/@item.Image" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
@@ -51,6 +51,7 @@
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
         </tr>
-}
+        }
+        
     </tbody>
 </table>
