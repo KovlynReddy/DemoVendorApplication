@@ -20,4 +20,16 @@ public class VendorController : Controller
     {
         return await _vendorRepository.GetList();
     }
+
+    [HttpGet("{id}")]
+    public async Task<Vendor> Index(Guid id)
+    {
+        return await _vendorRepository.GetById(id);
+    }
+
+    [HttpPost]
+    public async Task<Vendor> PostAsync(Vendor entity)
+    {
+        return await _vendorRepository.Create(entity);
+    }
 }

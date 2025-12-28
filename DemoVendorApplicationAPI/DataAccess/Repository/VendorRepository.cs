@@ -7,20 +7,18 @@ namespace DemoVendorApplicationAPI.DataAccess.Repository
 {
     public class VendorRepository : IVendorRepository
     {
-        //public VendorDBContext _db { get; set; }        
-        //public VendorRepository(VendorDBContext context)
-        //{
-        //    this._db = context;
-        //}
-
-        public VendorRepository()
+        public VendorDBContext _db { get; set; }
+        public VendorRepository(VendorDBContext context)
         {
-            
+            this._db = context;
         }
-
-        public Task<Vendor> Create(Vendor entity)
+        public async Task<Vendor> Create(Vendor entity)
         {
-            throw new NotImplementedException();
+            await _db.Vendors.AddAsync(entity);
+
+            await _db.SaveChangesAsync();
+
+            return await _db.Vendors.Where(m => m.Email == entity.Email).FirstAsync();
         }
 
         public Task<Vendor> Delete(Guid Id)
@@ -28,29 +26,20 @@ namespace DemoVendorApplicationAPI.DataAccess.Repository
             throw new NotImplementedException();
         }
 
-        public Task<Vendor> GetById(Guid id)
+        public async Task<Vendor> GetById(Guid id)
         {
-            throw new NotImplementedException();
+            return await _db.Vendors.Where(m => m.Id == id).FirstAsync();
         }
 
         public async Task<List<Vendor>> GetList()
         {
-            //return await _db.Vendors.ToListAsync();
-            return new List<Vendor>() { 
-            new Vendor(){ 
-            Email = "testEmail",
-            DisplayName = "Testname"
-            },  new Vendor(){
-            Email = "testEmail2",
-            DisplayName = "Testname2"
-            }  };
+            return await _db.Vendors.ToListAsync();
 
         }
 
         public async Task<List<Vendor>> GetList(Guid id)
         {
-            //return await _db.Vendors.Where(m => m.Id == id).ToListAsync();
-            throw new NotImplementedException();
+            return await _db.Vendors.Where(m => m.Id == id).ToListAsync();
         }
 
         public Task<Vendor> Update(Vendor entity)

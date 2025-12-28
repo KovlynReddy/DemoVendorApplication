@@ -9,3 +9,4 @@ C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplic
 C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\refint\DemoVendorApplicationDLL.dll
 C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\DemoVendorApplicationDLL.pdb
 C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\ref\DemoVendorApplicationDLL.dll
+C:\Users\User\OneDrive\Documents\Richfield\S12025\ProgrammingS1\DemoVendorApplication\DemoVendorApplicationDLL\obj\Debug\net8.0\DemoVendorApplicationDLL.sourcelink.json
